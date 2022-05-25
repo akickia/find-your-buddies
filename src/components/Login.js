@@ -39,7 +39,7 @@ const Login = () =>{
                 id = "userName"
                 value = {userInfo.userName}
                 />
-                <label htmlFor="fullName" >What's your password?</label>
+                <label htmlFor="password" >What's your password?</label>
                 <input
                 // onChange={handleChange}
                 type = "password"
