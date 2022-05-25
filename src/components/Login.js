@@ -8,12 +8,14 @@ const Login = () =>{
     });
 
     //we need to handle CHANGE
-    // const handleChange = (e) =>{
-    //     const name = e.target.name;
-    //     const value = e.target.value;
+    const handleChange = (e) =>{
+        const name = e.target.name;
+        const value = e.target.value;
 
-    //     setUserInfo({...userInfo, [name]: value});
-    // }; Update??
+        setUserInfo({...userInfo, [name]: value});
+
+        console.log(userInfo);
+    }; 
 
     //we need to handle SUBMIT
     //const handleSubmit() = (e) => {
@@ -22,8 +24,12 @@ const Login = () =>{
     // }
 
     //we need to CHECK if password matches username (IF/ELSE)
+    //need index/array of string with saved info 
+    //from sign up component to compare login info to
 
     //we need to handle if password doesn't match (IF/ELSE OR TERNARY)
+
+    
 
     return(
         <div className = "container">
@@ -33,7 +39,7 @@ const Login = () =>{
             <form className = "form">
                 <label htmlFor="userName" >What's your name?</label>
                 <input
-                // onChange={handleChange}
+                onChange={handleChange}
                 type = "text"
                 name = "userName"
                 id = "userName"
@@ -41,7 +47,7 @@ const Login = () =>{
                 />
                 <label htmlFor="password" >What's your password?</label>
                 <input
-                // onChange={handleChange}
+                onChange={handleChange}
                 type = "password"
                 name = "password"
                 id = "password"
