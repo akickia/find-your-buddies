@@ -1,5 +1,6 @@
 import Button from "./Button"
 
+
 const Welcome = () => {
   return (
   <>
@@ -9,6 +10,7 @@ const Welcome = () => {
       <h3>A basic turn based game made by Kicki, Åsa and Caroline in the course IT:Tech for women at Sundsgårdens folkhögskola. </h3>
       <h5>The game idea is that you choose a caracter and then search in the world of the game to find all of your Buddies. When all Buddies are found you have won the game. </h5>
     </div>
+    
       <div className="cards" style={{display: "flex"}}>
         <div className="card">
           <p>Start a new account</p>
