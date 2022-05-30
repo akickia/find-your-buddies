@@ -18,7 +18,7 @@ const Signup = () => {
           name = "password"
           id = "password"
           />
-          <Button link="#">Sign up and log in</Button>
+          <Button name="Sign up and log in" link="#" />
       </form>
     </div>
   );
