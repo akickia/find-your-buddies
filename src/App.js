@@ -2,7 +2,7 @@ import Signup from "./components/Signup"
 
 import Footer from "./components/Footer";
 import Welcome from "./components/Welcome";
-
+import Adventure from "./components/Adventure";
 import Login from "./components/Login";
 
 
@@ -10,21 +10,18 @@ import Login from "./components/Login";
 function App() {
   return (
     <div className="App">
-    <Signup />
+    
       <header className="App-header">
 </header>
-        
+        <Adventure />
         <p>
           
         </p>
 
       <Welcome />
-      <Footer />
-
-      
-
+      <Signup />
       <Login />
-
+      <Footer />
     </div>
   );
 }
