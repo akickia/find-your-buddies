@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import ShowChoicesItem from "./ShowChoicesItem";
 
-const ShowChoice = () => {
+const ShowChoices = () => {
 
   const [choices, setChoices] = useState([])
 
@@ -25,4 +25,4 @@ const ShowChoice = () => {
   );
 };
 
-export default ShowChoice;
+export default ShowChoices;
