@@ -11,7 +11,7 @@ const ShowChoices = () => {
   
 
   const fetchChoices = async () => {
-    const response = await fetch("/choices");
+    const response = await fetch(`/choises`);
     const data = await response.json();
 
     setChoices(data);

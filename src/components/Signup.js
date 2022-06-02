@@ -10,13 +10,13 @@ const Signup = () => {
           <input
           type = "text"
           name = "userName"
-          id = "userName"
+         
           />
           <label htmlFor="password" >What password would you like?</label>
           <input
           type = "password"
           name = "password"
-          id = "password"
+          
           />
           <Button name="Sign up and log in" link="#" />
       </form>

@@ -59,11 +59,11 @@ body {
   background-color: lightgrey;
   margin: 3%
 }
-footer {
+header, footer {
   background-color: rgb(240, 240, 240);
   text-align: center;
   height: 50px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
