@@ -3,7 +3,7 @@ import ShowChoices from "./components/ShowChoices";
 
 import Footer from "./components/Footer";
 import Welcome from "./components/Welcome";
-
+import Adventure from "./components/Adventure";
 import Login from "./components/Login";
 
 
@@ -13,20 +13,18 @@ function App() {
     <div className="App">
     <ShowChoices />
     <Signup />
+
       <header className="App-header">
 </header>
-        
+        <Adventure />
         <p>
           
         </p>
 
       <Welcome />
-      <Footer />
-
-      
-
+      <Signup />
       <Login />
-
+      <Footer />
     </div>
   );
 }
