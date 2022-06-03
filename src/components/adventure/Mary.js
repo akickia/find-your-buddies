@@ -1,28 +1,16 @@
-import { useState, useEffect } from "react";
+
 import Button from "../Button"
 
 const Mary = () => {
-  const [buddies, setBuddies] = useState([])
 
-  useEffect(() => {
-    fetchBuddies();
-  }, []);
-  
-
-  const fetchBuddies = async () => {
-    const response = await fetch("/buddy");
-    const data = await response.json();
-
-    setBuddies(data);
-  };
 
   
   return (
     <div>
 
-          <h3>You found {buddies.name}!</h3>
-          <p>{buddies.info}</p>
-          <Button name= "Click to continue"></Button>
+          <h3>You found Maryy!</h3>
+          <p></p>
+          <Button name= "Click to continue" link="/Task3"></Button>
     </div>
     
   );
@@ -30,5 +18,4 @@ const Mary = () => {
 
   
 }
-
 export default Mary
