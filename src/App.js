@@ -1,5 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 import Signup from "./components/Signup";
+import About from "./components/About";
 import Header from "./components/Header";
 import ShowChoices from "./components/ShowChoices";
 import Footer from "./components/Footer";
@@ -32,21 +34,22 @@ function App() {
         <div className ="container">
           <Routes>
             <Route path = "/" element = {<Welcome />}/>
+            <Route path = "/about" exact element = {<About />}/>
             <Route path = "/showchoices" exact element = {<ShowChoices />}/>
             <Route path = "/adventure" exact element = {<Adventure />}/>
             <Route path = "/signup" exact element = {<Signup />}/>
             <Route path = "/login" exact element = {<Login />}/>
             <Route path = "/benny" exact element = {<Benny />}/>
-        <Route path = "/mary" exact element = {<Mary />}/>
-        <Route path = "/harry" exact element = {<Harry />}/>
-        <Route path = "/penny" exact element = {<Penny />}/>
-        <Route path = "/choice1" exact element = {<Choice1 />}/>
-        <Route path = "/choice2" exact element = {<Choice2 />}/>
-        <Route path = "/choice3" exact element = {<Choice3 />}/>
-        <Route path = "/task1" exact element = {<Task1 />}/>
-        <Route path = "/task2" exact element = {<Task2 />}/>
-        <Route path = "/task3" exact element = {<Task3 />}/>
-        <Route path = "/winner" exact element = {<Winner />}/>
+            <Route path = "/mary" exact element = {<Mary />}/>
+            <Route path = "/harry" exact element = {<Harry />}/>
+            <Route path = "/penny" exact element = {<Penny />}/>
+            <Route path = "/choice1" exact element = {<Choice1 />}/>
+            <Route path = "/choice2" exact element = {<Choice2 />}/>
+            <Route path = "/choice3" exact element = {<Choice3 />}/>
+            <Route path = "/task1" exact element = {<Task1 />}/>
+            <Route path = "/task2" exact element = {<Task2 />}/>
+            <Route path = "/task3" exact element = {<Task3 />}/>
+            <Route path = "/winner" exact element = {<Winner />}/>
           </Routes>
         </div>
         <Footer />
