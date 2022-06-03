@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom"
+
 const Header = () => {
   return (
     <header>
-      <p>Link to Home</p>
-      <p>Link to About</p>
+      <Link to="/">Link to Home</Link>
+      <Link to="/about">Link to About</Link>
     </header>
 
   )

@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 
 import Button from "./Button";
@@ -25,3 +26,13 @@ const About = () => {
 };
 
 export default About;
+
+
+const About = () => {
+  return (
+    <div>About</div>
+  )
+}
+
+export default About
+
