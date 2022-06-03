@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import Button from "./Button"
+import Button from "../Button"
 
-const FindBuddy = () => {
+const Mary = () => {
   const [buddies, setBuddies] = useState([])
 
   useEffect(() => {
@@ -19,13 +19,10 @@ const FindBuddy = () => {
   
   return (
     <div>
-          {buddies.map((buddies) => ( 
-          <div><h3>You found {buddies.name}!</h3>
+
+          <h3>You found {buddies.name}!</h3>
           <p>{buddies.info}</p>
-          <Button name= "Click to continue" link="/ShowChoises"></Button>
-          </div>
-          ))}
-          
+          <Button name= "Click to continue"></Button>
     </div>
     
   );
@@ -34,4 +31,4 @@ const FindBuddy = () => {
   
 }
 
-export default FindBuddy
+export default Mary
