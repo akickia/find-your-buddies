@@ -39,6 +39,7 @@ body {
   justify-content: space-around;
   margin: auto;
 }
+
 .card {
   width: 200px;
   height: 150px;
@@ -55,10 +56,21 @@ body {
   text-align: center;
 }
 
+.re-card{
+    background-color: peachpuff;
+    color: #333;
+    border-radius: 15px;
+    padding: 40px 50px;
+    margin: 20px 0;
+    position: relative;
+  }
+
+
 .btn {
   background-color: lightgrey;
   margin: 3%
 }
+
 header, footer {
   background-color: rgb(240, 240, 240);
   text-align: center;
@@ -67,3 +79,14 @@ header, footer {
   align-items: center;
   justify-content: space-around;
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    width: 100%;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: bisque;
+  }
