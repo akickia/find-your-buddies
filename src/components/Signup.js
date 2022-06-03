@@ -1,3 +1,6 @@
+
+import { Link } from "react-router-dom";
+
 import Button from "./Button"
 
 const Signup = () => {
@@ -18,7 +21,7 @@ const Signup = () => {
           name = "password"
           
           />
-          <Button name="Sign up and log in" link="#" />
+         <Link to="/"><Button name="Sign up"></Button></Link>
       </form>
     </div>
   );
