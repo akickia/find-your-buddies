@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import Button from "../Button"
 
 const Harry = () => {
@@ -6,11 +6,11 @@ const Harry = () => {
 
   
   return (
-    <div>
+    <div className="events">
 
           <h3>You found Harry!</h3>
-          <p></p>
-          <Button name= "Click to continue" link="/Task1"></Button>
+          <p>Thank you for finding me! It's so good to see you!</p>
+          <Link to="/task1"><Button name= "Click to continue"></Button></Link>
     </div>
     
   );

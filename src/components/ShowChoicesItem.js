@@ -1,11 +1,13 @@
 
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 const ShowChoicesItem = ({ item }) => {
 
   return (
       <div>{item.text}
-      <Button name={item.option1} link="/Benny" />
+
+<Link to="/adventure"><Button name={item.option1}></Button></Link>
 
       <Button name={item.option2} link="/" />
       </div>

@@ -8,9 +8,10 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: lightgray;
+  
   padding: 0;
   box-sizing: border-box;
+  text-align: center;
 }
 
 
@@ -19,6 +20,7 @@ body {
   font-size: 1.2rem;
   font-weight: 400;
   margin: auto;
+  background-color: lightgray;
 }
 
 .container {
@@ -54,7 +56,21 @@ body {
   justify-content: space-between;
   text-align: center;
 }
+.events {
+  width: 100%;
+  border: 2px black solid;
+  background-color: white;
+  padding: 5%
+}
 
+.events h3 {
+
+}
+.btns {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
 .btn {
   background-color: lightgrey;
   margin: 3%

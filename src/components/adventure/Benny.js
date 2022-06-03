@@ -1,16 +1,14 @@
-
+import { Link } from "react-router-dom";
 import Button from "../Button"
 
 const Benny = () => {
-
-
   
   return (
-    <div>
+    <div className="events">
 
           <h3>You found Benny!</h3>
-          <p></p>
-          <Button name= "Click to continue" link="/Choise2"></Button>
+          <p>Thank you for finding me! I was so lonely!</p>
+          <Link to="/choice2"><Button name= "Click to continue"></Button></Link>
     </div>
     
   );

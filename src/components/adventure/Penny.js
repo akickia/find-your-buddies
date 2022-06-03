@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import Button from "../Button"
 
 const Penny = () => {
@@ -6,11 +6,11 @@ const Penny = () => {
 
   
   return (
-    <div>
+    <div className="events">
 
           <h3>You found Penny!</h3>
-          <p></p>
-          <Button name= "Click to continue" link="/Winner"></Button>
+          <p>Yay! I see that you have found us all now, congratulations! Now you can finnish the game - press the button!</p>
+          <Link to="/winner"><Button name="Click to continue"></Button></Link>
     </div>
     
   );
