@@ -1,5 +1,5 @@
 import Button from "./Button"
-
+import { Link } from "react-router-dom"
 
 const Welcome = () => {
   return (
@@ -14,15 +14,15 @@ const Welcome = () => {
       <div className="cards" style={{display: "flex"}}>
         <div className="card">
           <p>Start a new account</p>
-          <Button name="Sign up" link="#" />
+          <Link to="/signup"><Button name="Sign up"></Button></Link>        
         </div>
         <div className="card">
           <p style={{fontWeight: "bold"}}>START THE ADVENTURE!</p>
-          <Button name="Start" link="#" />
+          <Link to="/adventure"><Button name="Start"></Button></Link>
         </div>
         <div className="card">
           <p>Log in to your account</p>
-          <Button name="Log in" link="#" />
+          <Link to="/login"><Button name="Log in"></Button></Link>        
         </div>
       </div>
   </div>
