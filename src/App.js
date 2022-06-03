@@ -1,5 +1,7 @@
 
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 
 import Signup from "./components/Signup";
 import Header from "./components/Header";
@@ -11,9 +13,11 @@ import Adventure from "./components/Adventure";
 import Login from "./components/Login";
 
 
+
 function App() {
   return (
     <div className="App">
+
 
       
       <BrowserRouter>
@@ -29,8 +33,6 @@ function App() {
         </div>
         <Footer />
       </BrowserRouter>
-     
-
     </div>
   );
 }

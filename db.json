@@ -1,0 +1,80 @@
+{
+  "quest": [
+    {
+      "id": 1, 
+      "header": "You ran into a problem!",
+      "text": "Solve this riddle to proceed: What has to be broken before you can use it? ",
+      "answer": "An egg" 
+    },
+    {
+      "id": 2, 
+      "header": "You ran into a problem!",
+      "text": "Solve this riddle to proceed: What month of the year has 28 days? ",
+      "answer": "All of them" 
+    },
+    {
+      "id": 3, 
+      "header": "You ran into a problem!",
+      "text": "Solve this riddle to proceed: What gets wet while drying?",
+      "answer": "A towel" 
+    },
+    {
+      "id": 4, 
+      "header": "You ran into a problem!",
+      "text": "Solve this riddle to proceed: What can't talk but will reply when spoken to?",
+      "answer": "An echo" 
+    }
+
+  ],
+
+  "buddy": [
+    {
+      "id": 10,
+      "name": "Benny",
+      "info": "Thank you for finding me! I was so lonely!"
+    },
+    {
+      "id": 11,
+      "name": "Mary",
+      "info": "Thank you for finding me! I was really lost!"
+    },
+    {
+      "id": 12,
+      "name": "Harry",
+      "info": "Thank you for finding me! It's so good to see you!"
+    },
+    {
+      "id": 13,
+      "name": "Penny",
+      "info": "Yay! I see that you have found us all now, congratulations! Now you can finnish the game - press the button!"
+    }
+  ],
+
+  "choices": [
+    {
+      "id": 20,
+      "text": "The road splits, where do you want to go?",
+      "option1": "left",
+      "option2": "right"
+    },
+    {
+      "id": 21,
+      "text": "The road splits, where do you want to go?",
+      "option1": "straigh ahead",
+      "option2": "right"
+    },
+    {
+      "id": 22,
+      "text": "There is a bridge here, where do you want to go?",
+      "option1": "over",
+      "option2": "under"
+    },
+    {
+      "id": 23,
+      "text": "Oh no, you are lost in the woods! What do you want to do? ",
+      "option1": "go back one step",
+      "option2": "go back to the beginning"
+    }
+  ]
+
+}

@@ -1,6 +1,11 @@
+import Button from "../Button";
+
 const Choice = () => {
-    return(
-        <div></div>
+    return (
+        <div>
+            <Button name="Take left" link="#" />
+            <Button name="Take right" link="#" />
+        </div>
     )
 };
 
