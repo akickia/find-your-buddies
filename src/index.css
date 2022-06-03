@@ -55,6 +55,16 @@ body {
   text-align: center;
 }
 
+.re-card{
+    background-color: peachpuff;
+    color: #333;
+    border-radius: 15px;
+    padding: 40px 50px;
+    margin: 20px 0;
+    position: relative;
+  }
+
+
 .btn {
   background-color: lightgrey;
   margin: 3%
