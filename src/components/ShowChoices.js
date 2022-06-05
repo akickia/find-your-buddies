@@ -1,21 +1,10 @@
-import { useState, useEffect } from "react"
 import ShowChoicesItem from "./ShowChoicesItem";
+import { useContext } from "react";
+import ChoicesContext from "../context/ChoicesContext";
 
 const ShowChoices = () => {
+  const { choices } = useContext(ChoicesContext);
 
-  const [choices, setChoices] = useState([])
-
-  useEffect(() => {
-    fetchChoices();
-  }, []);
-  
-
-  const fetchChoices = async () => {
-    const response = await fetch(`/choises`);
-    const data = await response.json();
-
-    setChoices(data);
-  };
   return (
     <div>
       {choices.map((item) => (

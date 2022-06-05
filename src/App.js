@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { ChoicesProvider } from "./context/ChoicesContext"
 
 import Signup from "./components/Signup";
 import About from "./components/About";
@@ -19,7 +20,8 @@ import Task1 from "./components/adventure/Task1"
 import Task2 from "./components/adventure/Task2"
 import Task3 from "./components/adventure/Task3"
 import Winner from "./components/adventure/Winner"
-
+import FindBuddy from "./components/FindBuddy"
+import ShowQuest from "./components/ShowQuest";
 
 
 
@@ -28,14 +30,17 @@ function App() {
     <div className="App">
 
 
-      
+    <ChoicesProvider>
       <BrowserRouter>
         <Header />
+        
         <div className ="container">
           <Routes>
             <Route path = "/" element = {<Welcome />}/>
             <Route path = "/about" exact element = {<About />}/>
-            <Route path = "/showchoices" exact element = {<ShowChoices />}/>
+            <Route path = "/quests" exact element = {<ShowQuest />}/>
+            <Route path = "/buddies" exact element = {<FindBuddy />}/>
+            <Route path = "/choices" exact element = {<ShowChoices />}/>
             <Route path = "/adventure" exact element = {<Adventure />}/>
             <Route path = "/signup" exact element = {<Signup />}/>
             <Route path = "/login" exact element = {<Login />}/>
@@ -54,6 +59,7 @@ function App() {
         </div>
         <Footer />
       </BrowserRouter>
+      </ChoicesProvider>
     </div>
   );
 }

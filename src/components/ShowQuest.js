@@ -1,17 +1,15 @@
-
 import Button from "./Button"
-
 import { useContext } from "react";
 import ChoicesContext from "../context/ChoicesContext";
 
-const FindBuddy = () => {
-  const { buddies } = useContext(ChoicesContext);
+const ShowQuest = () => {
+  const { quests } = useContext(ChoicesContext);
 
   return (
     <div>
-          {buddies.map((buddies) => ( 
-          <div><h3>You found {buddies.name}!</h3>
-          <p>{buddies.info}</p>
+          {quests.map((quests) => ( 
+          <div><h3>You found {quests.header}!</h3>
+          <p>{quests.text}</p>
           <Button name= "Click to continue" link="/ShowChoises"></Button>
           </div>
           ))}
@@ -24,4 +22,4 @@ const FindBuddy = () => {
   
 }
 
-export default FindBuddy
+export default ShowQuest
