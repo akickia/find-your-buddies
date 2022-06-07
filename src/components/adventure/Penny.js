@@ -9,6 +9,7 @@ const Penny = () => {
     <div className="events">
 
           <h3>You found Penny!</h3>
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png" alt="" />
           <p>Yay! I see that you have found us all now, congratulations! Now you can finnish the game - press the button!</p>
           <Link to="/winner"><Button name="Click to continue"></Button></Link>
     </div>
