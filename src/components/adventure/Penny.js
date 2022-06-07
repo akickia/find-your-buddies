@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import Button from "../Button"
 
-import { useContext } from "react";
+import { useState } from "react";
 import ChoicesContext from "../../context/ChoicesContext";
 
 
 
 const Penny = () => {
-  const { addBuddy } = useContext(ChoicesContext);
+  let [addBuddy, setAddBuddy] = useState(0)
 
 
   
