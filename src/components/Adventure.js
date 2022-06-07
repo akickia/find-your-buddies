@@ -1,15 +1,39 @@
 import Choice1 from "./adventure/Choice1"
-<<<<<<< HEAD
-import Button from "./Button"
+
 import { useState } from "react";
+import Fetch from "./Fetch";
 
 
-=======
-import Fetch from "./Fetch"
->>>>>>> b8c164d59d640b7ef2ca29ec1de114e4e3ce3783
+import { v4 as uuidv4 } from "uuid";
 
 const Adventure = () => {
-  let [addBuddy, setAddBuddy] = useState(0)
+  let [addBuddy, setAddBuddy] = useState("")
+ 
+
+  const [inputValue, setInputValue] = useState("");
+  const [buddies, setBuddies] = useState([]);
+
+  const addBuddies = (e) => {
+    e.preventDefault();
+
+    if (addBuddy.trim() === "") return;
+
+    setBuddies([
+      ...buddies,
+      {
+        text: addBuddy,
+        id: uuidv4(),
+      },
+    ]);
+
+    setAddBuddy("");
+  };
+
+
+
+
+  
+
 
   // const handleCollect = (e) => {
   //   setAddBuddy(addBuddy+1)
@@ -37,7 +61,11 @@ const Adventure = () => {
       <h3>You need to find all your buddies to finnish the game. Make a choise below to start searching: </h3>
       <div><Choice1 /></div>
       <p>{addBuddy}</p>
-      <button onClick={() => setAddBuddy(addBuddy ++)}>Collect me!</button>
+      <button value={`You found Penny!`} onClick={(e) => setAddBuddy(e.target.value)}>Collect me!</button>
+     
+      
+      
+    
     </div>
     
   )
