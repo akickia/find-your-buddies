@@ -5,8 +5,7 @@ function getUrl(limit, offset) {
   return `https://pokeapi.co/api/v2/pokemon/?limit=${limit}&offset=${offset}`;
 }
 
-export default function TestFetch() {
-  import { useState, useEffect } from "react"
+
 
 const pokemon = {
   id: null,

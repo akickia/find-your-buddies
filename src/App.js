@@ -16,12 +16,16 @@ import Penny from "./components/adventure/Penny"
 import Choice1 from "./components/adventure/Choice1"
 import Choice2 from "./components/adventure/Choice2"
 import Choice3 from "./components/adventure/Choice3"
-import Task1 from "./components/adventure/Task1"
-import Task2 from "./components/adventure/Task2"
-import Task3 from "./components/adventure/Task3"
+import Choice4 from "./components/adventure/Choice4"
 import Winner from "./components/adventure/Winner"
 import FindBuddy from "./components/FindBuddy"
 import ShowQuest from "./components/ShowQuest";
+import DeadEnd1 from "./components/adventure/DeadEnd1";
+import DeadEnd2 from "./components/adventure/DeadEnd2";
+import DeadEnd3 from "./components/adventure/DeadEnd3";
+import DeadEnd4 from "./components/adventure/DeadEnd4";
+import Continue from "./components/adventure/Continue";
+import Continue2 from "./components/adventure/Continue2";
 
 
 
@@ -45,15 +49,19 @@ function App() {
             <Route path = "/signup" exact element = {<Signup />}/>
             <Route path = "/login" exact element = {<Login />}/>
             <Route path = "/benny" exact element = {<Benny />}/>
+            <Route path = "/deadend1" exact element = {<DeadEnd1 />}/>
+            <Route path = "/deadend2" exact element = {<DeadEnd2 />}/>
+            <Route path = "/deadend3" exact element = {<DeadEnd3 />}/>
+            <Route path = "/deadend4" exact element = {<DeadEnd4 />}/>
             <Route path = "/mary" exact element = {<Mary />}/>
             <Route path = "/harry" exact element = {<Harry />}/>
             <Route path = "/penny" exact element = {<Penny />}/>
             <Route path = "/choice1" exact element = {<Choice1 />}/>
             <Route path = "/choice2" exact element = {<Choice2 />}/>
             <Route path = "/choice3" exact element = {<Choice3 />}/>
-            <Route path = "/task1" exact element = {<Task1 />}/>
-            <Route path = "/task2" exact element = {<Task2 />}/>
-            <Route path = "/task3" exact element = {<Task3 />}/>
+            <Route path = "/choice4" exact element = {<Choice4 />}/>
+            <Route path = "/continue" exact element = {<Continue />}/>
+            <Route path = "/continue2" exact element = {<Continue2 />}/>
             <Route path = "/winner" exact element = {<Winner />}/>
           </Routes>
         </div>

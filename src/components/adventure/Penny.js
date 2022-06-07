@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import Button from "../Button"
 
-import { useContext } from "react";
-import ChoicesContext from "../../context/ChoicesContext";
+import { useState } from "react";
+
 
 
 
 const Penny = () => {
-  const { addBuddy } = useContext(ChoicesContext);
+  let [addBuddy, setAddBuddy] = useState([])
 
 
   
@@ -16,9 +16,10 @@ const Penny = () => {
 
           <h3>You found Penny!</h3>
           <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png" alt="" />
-          <p>Yay! I see that you have found us all now, congratulations! Now you can finnish the game - press the button!</p>
-          <p>{addBuddy}</p>
-          <button onClick={() => setAddBuddy(addBuddy ++)}>Collect me!</button>
+          <p>Thank you so much!</p>
+          <div><button onClick={() => setAddBuddy(addBuddy ++)}>Collect me!</button></div>
+          <p>You have found all of your buddies!</p>
+          
           <Link to="/winner"><Button name="Click to continue"></Button></Link>
           
     </div>
