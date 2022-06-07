@@ -8,9 +8,10 @@ const ShowQuest = () => {
   return (
     <div>
           {quests.map((quests) => ( 
-          <div><h3>You found {quests.header}!</h3>
-          <p>{quests.text}</p>
-          <Button name= "Click to continue" link="/ShowChoises"></Button>
+          <div>
+            <h3>{quests.header}!</h3>
+            <p>{quests.text}</p>
+            <Button name= "Click to continue" link="/ShowChoises"></Button>
           </div>
           ))}
           
