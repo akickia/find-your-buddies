@@ -1,22 +1,12 @@
-import { useState, useEffect } from "react";
+
 import Button from "./Button"
 
+import { useContext } from "react";
+import ChoicesContext from "../context/ChoicesContext";
+
 const FindBuddy = () => {
-  const [buddies, setBuddies] = useState([])
+  const { buddies } = useContext(ChoicesContext);
 
-  useEffect(() => {
-    fetchBuddies();
-  }, []);
-  
-
-  const fetchBuddies = async () => {
-    const response = await fetch("/buddy");
-    const data = await response.json();
-
-    setBuddies(data);
-  };
-
-  
   return (
     <div>
           {buddies.map((buddies) => ( 
