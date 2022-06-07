@@ -6,6 +6,9 @@ export const ChoicesProvider = ({ children }) => {
   const [choices, setChoices] = useState([])
   const [buddies, setBuddies] = useState([])
   const [quests, setQuests] = useState([])
+  
+
+
 
 
   useEffect(() => {
