@@ -4,10 +4,12 @@ import { Link } from "react-router-dom";
 const Choice1 = () => {
     return (
         <div className="events">
+            <h3>Welcome to the forrest! </h3>
+            <h4>Be carefull not to get lost in here...</h4>
             <h3>The road splits, where do you want to go?</h3>
-            <div className="btns"><Link to="/choice2">
+            <div className="btns"><Link to="/deadend1">
             <Button name="Take left" /> </Link>
-            <Link to="/choice3">
+            <Link to="/benny">
             <Button name="Take right" /></Link></div>
         </div>
     )

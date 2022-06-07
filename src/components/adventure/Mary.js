@@ -10,9 +10,9 @@ const Mary = () => {
           <h3>You found Mary!</h3>
           <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png" alt="" />
           <p>Thank you for finding me! I was really lost!</p>
-          <p>What do you want to do now?</p>
-          <Link to="/choice1"><Button name= "Click to find more friends"></Button></Link>
-          <Link to="/task3"><Button name= "Click to continue"></Button></Link>
+          <Button name= "Collect me"></Button>
+          <p>You have found 2 buddies so far, you have 2 left</p>
+          <Link to="/choice3"><Button name= "Click to continue"></Button></Link>
 
     </div>
     
