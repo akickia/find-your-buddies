@@ -1,4 +1,5 @@
-import Choice1 from "./adventure/Choice1"
+import Button from "./Button";
+import { Link } from "react-router-dom";
 
 import { useState } from "react";
 import Fetch from "./Fetch";
@@ -6,7 +7,7 @@ import Fetch from "./Fetch";
 
 import { v4 as uuidv4 } from "uuid";
 
-const Adventure = () => {
+const Adventure = (buddieCount) => {
   let [addBuddy, setAddBuddy] = useState("")
  
 
@@ -58,8 +59,10 @@ const Adventure = () => {
       <Fetch />
     
       <h1>Welcome!</h1>
-      <h3>You need to find all your buddies to finnish the game. Make a choise below to start searching: </h3>
-      <div><Choice1 /></div>
+      <h3>You need to find all your buddies to finnish the game. </h3>
+      <h4>Press the button below to start searching: </h4>
+      <div><Link to="/choice1">
+            <Button name="START" /> </Link></div>
       <p>{addBuddy}</p>
       <button value={`You found Penny!`} onClick={(e) => setAddBuddy(e.target.value)}>Collect me!</button>
      
