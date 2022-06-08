@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom"
 import Button from "../Button"
+import dear from "../../images/dear.jpg"
 
 function DeadEnd2() {
   return (
     <div className="events">
-      <div><h3>Oh no! </h3>
-      <h4>It's a dead end! You have to turn back! </h4>
+      <div><h3>Oups! </h3>
+      <h4>Dont' scare the dear! You have to go back!</h4>
+      <img className="img" src={dear} alt="dear" />
       </div>
       <Link to="/choice2"><Button name="Go back" /></Link> 
       </div>
