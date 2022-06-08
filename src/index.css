@@ -57,6 +57,7 @@ body {
   justify-content: space-between;
   text-align: center;
 }
+
 .events {
   width: 100%;
   border: 2px black solid;
@@ -72,6 +73,7 @@ margin-bottom: 1.5rem;
 .events h3 {
 
 }
+
 .btns {
   display: flex;
   width: 100%;

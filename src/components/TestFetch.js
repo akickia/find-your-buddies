@@ -6,7 +6,6 @@ function getUrl(limit, offset) {
 }
 
 
-
 const pokemon = {
   id: null,
   name: null,
@@ -58,8 +57,6 @@ const loadPokemon = async (data) => {
       {pokemonData.map((pokemon, i) => {
         return (<p key={i}><img src={pokemon.sprites.front_default} alt="" /></p>)
       })}
-
-      
     </div>
   )
 }

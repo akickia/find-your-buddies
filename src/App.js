@@ -32,12 +32,9 @@ import Continue2 from "./components/adventure/Continue2";
 function App() {
   return (
     <div className="App">
-
-
     <ChoicesProvider>
       <BrowserRouter>
         <Header />
-        
         <div className ="container">
           <Routes>
             <Route path = "/" element = {<Welcome />}/>

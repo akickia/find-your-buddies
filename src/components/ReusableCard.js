@@ -10,7 +10,6 @@ const ReusableCard = ({children}) => {
 
 export default ReusableCard;
 
-
 ReusableCard.propTypes = {
     children: PropTypes.node.isRequired
 }

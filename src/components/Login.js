@@ -19,9 +19,6 @@ const Login = () =>{
         console.log(userInfo);
     }; 
 
-
-    
-
     return(
         <div className = "container">
             <h2>Log in</h2>

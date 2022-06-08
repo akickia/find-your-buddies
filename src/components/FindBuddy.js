@@ -1,4 +1,3 @@
-
 import Button from "./Button"
 
 import { useContext } from "react";
@@ -15,13 +14,8 @@ const FindBuddy = () => {
           <Button name= "Click to continue" link="/ShowChoises"></Button>
           </div>
           ))}
-          
     </div>
-    
   );
-  
-
-  
 }
 
 export default FindBuddy
