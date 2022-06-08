@@ -103,6 +103,17 @@ header, footer {
   justify-content: space-around;
 }
 
+.links{
+  text-decoration: none;
+  color: #758250;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.links:hover{
+  border-bottom: 5px solid #F8D3B0;
+}
+
 .form {
     display: flex;
     flex-direction: column;
