@@ -11,7 +11,6 @@ const Welcome = () => {
       <h5>The game idea is to search in the world of the game to find all of your Buddies.</h5>
       <h5>When all Buddies are found you have won the game. </h5>
     </div>
-    
     <div className="cards" style={{display: "flex"}}>
       <div className="card">
         <p>Start a new account</p>

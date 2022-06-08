@@ -12,22 +12,18 @@ function Winner() {
         <br></br>
         <img src={forrest2} className="img" alt="forrest" />
         <br /><br />
-    <div className="winnernames">
-      {buddies.map((buddies) => ( 
-          <h3>{buddies.name}</h3>
-          
-          ))}</div>
-          
+        <div className="winnernames">
+          {buddies.map((buddies) => ( 
+            <h3>{buddies.name}</h3>
+          ))}
+        </div>
         <div className="winnernames">
           <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png" alt="" />
-
-    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png" alt="" />
-    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png" alt="" />
-
-    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png" alt="" />
-    </div>
-
-    <h1>CONGRATULATIONS!</h1>
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png" alt="" />
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png" alt="" />
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png" alt="" />
+        </div>
+        <h1>CONGRATULATIONS!</h1>
     </div>
   )
 }

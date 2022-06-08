@@ -4,7 +4,6 @@ import { ChoicesProvider } from "./context/ChoicesContext"
 import Signup from "./components/Signup";
 import About from "./components/About";
 import Header from "./components/Header";
-import ShowChoices from "./components/ShowChoices";
 import Footer from "./components/Footer";
 import Welcome from "./components/Welcome";
 import Login from "./components/Login";
@@ -18,8 +17,6 @@ import Choice2 from "./components/adventure/Choice2"
 import Choice3 from "./components/adventure/Choice3"
 import Choice4 from "./components/adventure/Choice4"
 import Winner from "./components/adventure/Winner"
-import FindBuddy from "./components/FindBuddy"
-import ShowQuest from "./components/ShowQuest";
 import DeadEnd1 from "./components/adventure/DeadEnd1";
 import DeadEnd2 from "./components/adventure/DeadEnd2";
 import DeadEnd3 from "./components/adventure/DeadEnd3";
@@ -39,9 +36,6 @@ function App() {
           <Routes>
             <Route path = "/" element = {<Welcome />}/>
             <Route path = "/about" exact element = {<About />}/>
-            <Route path = "/quests" exact element = {<ShowQuest />}/>
-            <Route path = "/buddies" exact element = {<FindBuddy />}/>
-            <Route path = "/choices" exact element = {<ShowChoices />}/>
             <Route path = "/adventure" exact element = {<Adventure />}/>
             <Route path = "/signup" exact element = {<Signup />}/>
             <Route path = "/login" exact element = {<Login />}/>
