@@ -20,7 +20,7 @@ body {
   font-size: 1.2rem;
   font-weight: 400;
   margin: auto;
-  background-color: lightgray;
+  background-color: #758250;
 }
 
 .container {
@@ -64,6 +64,11 @@ body {
   padding: 5%
 }
 
+h3{
+margin-bottom: 1.5rem;
+
+}
+
 .events h3 {
 
 }
@@ -82,9 +87,16 @@ body {
     position: relative;
   }
 
-.btn {
-  background-color: lightgrey;
-  margin: 3%
+.btn, button{
+  background-color: #D1E2C4;
+  padding: 0.5rem;
+  margin: 3%;
+  border-radius: 5px;
+}
+
+.btn:hover, button:hover {
+  background-color: #758250;
+  color: white;
 }
 
 header, footer {
@@ -96,6 +108,17 @@ header, footer {
   justify-content: space-around;
 }
 
+.links{
+  text-decoration: none;
+  color: #758250;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.links:hover{
+  border-bottom: 5px solid #F8D3B0;
+}
+
 .form {
     display: flex;
     flex-direction: column;
@@ -104,5 +127,5 @@ header, footer {
     margin: 2rem;
     padding: 2rem;
     border-radius: 15px;
-    background-color: bisque;
+    background-color: #D1E2C4;
   }
