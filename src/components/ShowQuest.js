@@ -7,20 +7,15 @@ const ShowQuest = () => {
 
   return (
     <div>
-          {quests.map((quests) => ( 
-          <div>
-            <h3>{quests.header}!</h3>
-            <p>{quests.text}</p>
-            <Button name= "Click to continue" link="/ShowChoises"></Button>
-          </div>
-          ))}
-          
+      {quests.map((quests) => ( 
+        <div>
+          <h3>{quests.header}!</h3>
+          <p>{quests.text}</p>
+          <Button name= "Click to continue" link="/ShowChoises"></Button>
+        </div>
+      ))}      
     </div>
-    
   );
-  
-
-  
 }
 
 export default ShowQuest

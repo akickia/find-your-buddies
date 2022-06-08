@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 import Button from "./Button"
@@ -11,15 +10,13 @@ const Signup = () => {
       <form className = "form">
         <label htmlFor="userName" >What's your name?</label>
           <input
-          type = "text"
-          name = "userName"
-         
+            type = "text"
+            name = "userName"
           />
           <label htmlFor="password" >What password would you like?</label>
           <input
-          type = "password"
-          name = "password"
-          
+            type = "password"
+            name = "password"
           />
          <Link to="/"><Button name="Sign up"></Button></Link>
       </form>
