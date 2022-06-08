@@ -5,12 +5,12 @@ const About = () => {
   return (
     <div className="container">
       <h1>About the game!</h1>
-      <h3>"Find your buddies" is a game where you have to click your way through a beautiful maze!</h3>
-      <h3>Your buddies can appear anywhere in the maze, in any way, shape or form.</h3>
+      <h3>"Find Your Buddies" is a game where you have to click your way through a beautiful maze!</h3>
+      <h3>Your buddies can appear anywhere in the maze in any way, shape or form.</h3>
       <h5>You need to find all your buddies to finish the game.</h5>
       <h5>Don't hesitate, start searching now!</h5>
       <Link to="/adventure"><Button name="Start the Game!"></Button></Link>
-      <p>"Find your buddies" is a game created by Kicki, Åsa and Caroline in 2022. All rights reserved.</p>
+      <p>"Find Your Buddies" is a game created by Kicki, Åsa and Caroline in 2022.</p>
     </div>
   );
 };

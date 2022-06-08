@@ -6,7 +6,7 @@ const Signup = () => {
   return (
     <div className = "container">
       <h2>Sign Up</h2>
-      <h3>so that you can start finding your buddies!</h3>
+      <h3>so that you can start finding your Buddies!</h3>
       <form className = "form">
         <label htmlFor="userName" >What's your name?</label>
           <input

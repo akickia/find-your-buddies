@@ -7,7 +7,7 @@ const Welcome = () => {
   <div className="container">
     <h1>Welcome to Find Your Buddies! </h1>
     <div>
-      <h3>A basic turn based game made by Kicki, Åsa and Caroline in the course IT:Tech for women at Sundsgårdens folkhögskola. </h3>
+      <h3>A basic turn based game made by Kicki, Åsa and Caroline in the course IT:Tech For Women at Sundsgårdens Folkhögskola. </h3>
       <h5>The game idea is to search in the world of the game to find all of your Buddies.</h5>
       <h5>When all Buddies are found you have won the game. </h5>
     </div>
