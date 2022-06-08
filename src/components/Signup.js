@@ -18,7 +18,7 @@ const Signup = () => {
             type = "password"
             name = "password"
           />
-         <Link to="/"><Button name="Sign up"></Button></Link>
+          <Link to="/adventure"><Button name="Sign up!"></Button></Link>
       </form>
     </div>
   );

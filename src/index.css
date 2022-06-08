@@ -82,6 +82,10 @@ body {
   justify-content: space-around;
 }
 
+input {
+  max-width: 300px;
+}
+
 h3{
 margin-bottom: 1.5rem;
 
