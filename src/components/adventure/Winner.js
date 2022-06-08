@@ -4,6 +4,7 @@ import forrest2 from "../../images/forrest2.jpg"
 
 function Winner() {
   const { buddies } = useContext(ChoicesContext);
+
   return (
     <div className="events">
         <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png" alt="" />

@@ -10,7 +10,7 @@ function Continue() {
       <h4>No Buddy here, you have to keep on going.  </h4>
       </div>
       <Link to="/mary"><Button name="Continue" /></Link> 
-      </div>
+    </div>
   )
 }
 

@@ -8,9 +8,6 @@ export const ChoicesProvider = ({ children }) => {
   const [quests, setQuests] = useState([])
   
 
-
-
-
   useEffect(() => {
     fetchQuests();
   }, []);
@@ -19,7 +16,6 @@ export const ChoicesProvider = ({ children }) => {
   const fetchQuests = async () => {
     const response = await fetch(`/quest`);
     const data = await response.json();
-
     setQuests(data);
 }
 

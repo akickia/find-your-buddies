@@ -10,7 +10,7 @@ function DeadEnd4() {
       <img className="img" src={eyes} alt="eyes" />
       </div>
       <Link to="/choice4"><Button name="Go back" /></Link> 
-      </div>
+    </div>
   )
 }
 

@@ -11,7 +11,7 @@ function DeadEnd3() {
       <img className="img" src={forrest} alt="forrest" />
       </div>
       <Link to="/choice3"><Button name="Go back" /></Link> 
-      </div>
+    </div>
   )
 }
 

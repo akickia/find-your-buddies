@@ -10,9 +10,10 @@ const Choice1 = () => {
             <h4>Be carefull not to get lost in here...</h4>
             <h3>The road splits, where do you want to go?</h3>
             <div className="btns"><Link to="/deadend1">
-            <Button name="Take left" /> </Link>
-            <Link to="/benny">
-            <Button name="Take right" /></Link></div>
+                <Button name="Take left" /> </Link>
+                <Link to="/benny">
+                <Button name="Take right" /></Link>
+            </div>
         </div>
     )
 };

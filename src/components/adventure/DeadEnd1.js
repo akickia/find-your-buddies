@@ -10,7 +10,7 @@ function DeadEnd1() {
       <h4>It's a dead end! You have to turn back! </h4>
       </div>
       <Link to="/choice1"><Button name="Go back" /></Link> 
-      </div>
+    </div>
   )
 }
 
