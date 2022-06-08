@@ -55,7 +55,6 @@ const Adventure = (buddieCount) => {
       <div><Link to="/choice1">
             <Button name="START" /> </Link></div>
       <p>{addBuddy}</p>
-      <button value={`You found Penny!`} onClick={(e) => setAddBuddy(e.target.value)}>Collect me!</button>
     </div>
   )
 }

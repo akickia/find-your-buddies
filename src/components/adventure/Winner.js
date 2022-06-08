@@ -9,7 +9,7 @@ function Winner() {
         <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png" alt="" />
         <h1>YAY! YOU ARE THE WINNER!!!</h1>
         <h2>You found</h2>{buddies.map((buddies) => ( 
-        <h3>{buddies.name}</h3>
+        <h3 key={buddies.id}>{buddies.name}</h3>
           
         ))}
         <h2>CONGRATULATIONS!</h2>

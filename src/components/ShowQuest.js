@@ -8,7 +8,7 @@ const ShowQuest = () => {
   return (
     <div>
       {quests.map((quests) => ( 
-        <div>
+        <div key={quests.id}>
           <h3>{quests.header}!</h3>
           <p>{quests.text}</p>
           <Button name= "Click to continue" link="/ShowChoises"></Button>
