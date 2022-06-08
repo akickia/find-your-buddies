@@ -65,18 +65,11 @@ body {
   padding: 5%
 }
 
-.input{
-  max-width: 300px;
-}
 
 h3{
 margin-bottom: 1.5rem;
-
 }
 
-.events h3 {
-
-}
 
 .btns {
   display: flex;
@@ -128,10 +121,17 @@ header, footer {
 .form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 80%;
     width: 100%;
     margin: 2rem;
     padding: 2rem;
     border-radius: 15px;
     background-color: #D1E2C4;
+  }
+
+  input{
+    max-width: 70%;
+    margin: 0.7rem;
   }
