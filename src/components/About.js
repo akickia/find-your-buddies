@@ -10,7 +10,8 @@ const About = () => {
       <h5>You need to find all your buddies to finish the game.</h5>
       <h5>Don't hesitate, start searching now!</h5>
       <Link to="/adventure"><Button name="Start the Game!"></Button></Link>
-      <p>"Find Your Buddies" is a game created by Kicki, Åsa and Caroline in 2022.</p>
+      <p>"Find Your Buddies" is a game created by Kicki, Åsa and Caroline in 2022 as a school project in the course IT:Tech for women. </p>
+      <p>In this app we have used pictures from unsplash and fetched Pokemons from pokeapi.co</p>
     </div>
   );
 };
